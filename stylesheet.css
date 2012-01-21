@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    font-size: 12px;
+    padding-left: 1%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #90B090;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0.2em 0 0.2em 0;
+    color: #000;
+}
+
+h2 {
+    font-family: Imperator, "Imprint MT Shadow", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 2.6em;
+    margin: 0.1em 0 0.1em 0;
+    color: #28313F;
+}
+
+p {
+    line-height: 1.3em;
+    font-size: 1.1em;
+    margin-bottom: .8em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #607560;
+    height: 1px;
+    margin: 5px 0;
+    color: #607560;
+    border-color: #607560;
+}
+
+li {
+    margin-left: 30px;
+}
+
+#trapshoot_animation {
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+#logo {
+    font-size: 6em;
+    font-family: "Imprint MT Shadow", "URW Chancery L", "URW Bookman L", serif;
+    color: #604540;
+}
+
+#cred {
+    font-size: .8em;
+}
+
+a:link  {
+    color: #105289;
+}
+
+a:visited   {
+    color: #105289;
+}
+
+a:hover {
+    color: #D31141;
+}
+
+a:active {
+    color: #368AD2;
+}
+
+
+

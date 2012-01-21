@@ -1,0 +1,32 @@
+body { 
+	color: rgb(140, 140, 150);
+	background-color: #143c14;
+}
+
+h1{
+	color: #000;
+}
+
+#logo {
+	color: #100000;
+}
+
+hr {
+	border-color: #607560;
+}
+
+a:link	{
+	color: #1670A5;
+}
+
+a:visited	{
+	color: #A51FA5;
+}
+
+a:hover	{
+	color: #D31141;
+}
+
+a:active {
+	color: #A57016;
+}
