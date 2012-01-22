@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    font-family: Imperator, "Imprint MT Shadow", Arial, Helvetica, sans-serif;
+    font-family: Imperator, Castellar, "Imprint MT Shadow", "Cooper Black", sans-serif;
     font-weight: normal;
     font-size: 2.6em;
     margin: 0.1em 0 0.1em 0;
@@ -50,7 +50,7 @@ li {
 
 #logo {
     font-size: 6em;
-    font-family: "Imprint MT Shadow", "URW Chancery L", "URW Bookman L", serif;
+    font-family: "Imprint MT Shadow", "Copperplate Gothic Light", Algerian, "URW Bookman L", serif;
     color: #604540;
 }
 
