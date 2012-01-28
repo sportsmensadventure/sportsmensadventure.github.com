@@ -40,7 +40,7 @@ hr {
 }
 
 li {
-    margin-left: 30px;
+    margin-left: 430px;
 }
 
 #trapshoot_animation {
@@ -54,8 +54,18 @@ li {
     color: #604540;
 }
 
+#map {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
 #cred {
     font-size: .8em;
+}
+
+#bottom {
+    /*clear: both;*/
 }
 
 a:link  {
