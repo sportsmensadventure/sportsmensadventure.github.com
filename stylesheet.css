@@ -1,7 +1,39 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*\
+|                                      |
+|        Reset CSS                     |
+|                                      |
+\*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul,li, pre, code, address, variable, 
+form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+ol, ul {
+    margin-left: 1.4em;
+}
+ol {
+    list-style: decimal;
+}
+ul {
+    list-style: bullet;
+}
+img {
+    border: 0;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*\
+|                                      |
+|        Actual Styles                 |
+|                                      |
+\*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 body {
     height: 100%;
     font-size: 12px;
-    padding-left: 1%;
+    /**padding-left: 1%;**/
     font-family: Verdana, Helvetica, Arial, sans-serif;
     background-color: #90B090;
 }
@@ -9,7 +41,7 @@ body {
 h1 {
     font-size: 2.5em;
     font-weight: normal;
-    margin: 0.2em 0 0.2em 0;
+    padding: 0.2em 0 0.2em 0;
     color: #000;
 }
 
@@ -17,16 +49,16 @@ h2 {
     font-family: Imperator, Castellar, "Imprint MT Shadow", "Cooper Black", sans-serif;
     font-weight: normal;
     font-size: 2.6em;
-    margin: 0.1em 0 0.1em 0;
+    padding: 0.1em 0 0.1em 0;
     color: #28313F;
 }
 
 p {
     line-height: 1.3em;
     font-size: 1.1em;
-    margin-bottom: .8em;
-    margin-right: 3em;
-    margin-left: 3em;
+    padding-bottom: .8em;
+    padding-right: 3em;
+    padding-left: 3em;
 }
 
 hr {
@@ -34,16 +66,20 @@ hr {
     border-style: solid;
     border-color: #607560;
     height: 1px;
-    margin: 5px 0;
+    /**margin: 5px 0;**/
     color: #607560;
     border-color: #607560;
 }
 
-li {
-    margin-left: 430px;
+#content {
+    margin-left: 420px;
 }
 
-#content {}
+#sidebarred {
+    background-image: url("tilebg.png");
+    background-repeat: repeat-y;
+    background-position: left-top;
+}
 
 #trapshoot_animation {
     margin-top: -30px;
@@ -58,8 +94,8 @@ li {
 
 #map {
     float: left;
-    margin-right: 25px;
-    margin-bottom: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
 }
 
 #cred {
