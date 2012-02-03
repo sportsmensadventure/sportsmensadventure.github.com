@@ -74,6 +74,8 @@ hr {
 }
 
 #sidebarred {
+    margin-top: -23px;
+    margin-bottom: -6px;
     background-image: url("tilebg.png");
     background-repeat: repeat-y;
     background-position: left-top;
@@ -92,6 +94,7 @@ hr {
 
 #map {
     float: left;
+    padding-top: 10px;
     padding-right: 25px;
     padding-bottom: 10px;
 }
@@ -102,6 +105,7 @@ hr {
 
 #bottom {
     /*clear: both;*/
+    padding-top: 0;
 }
 
 a:link  {
