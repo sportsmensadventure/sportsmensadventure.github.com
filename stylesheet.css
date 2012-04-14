@@ -20,6 +20,7 @@ body {
     font-size: 12px;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     background-color: #90B090;
+    color: #101010;
     margin-bottom: 5px;
 }
 
@@ -69,6 +70,7 @@ li {
 
 #content {
     margin-left: 420px;
+    margin-right: 20px;
     padding-bottom: 5px;
 }
 
@@ -108,7 +110,7 @@ li {
 }
 
 a:link  {
-    color: #105289;
+    color: #13568D;
 }
 
 a:visited   {
