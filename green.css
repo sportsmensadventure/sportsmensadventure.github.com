@@ -1,32 +1,26 @@
-body { 
-	color: rgb(140, 140, 150);
-	background-color: #143c14;
-}
-
-h1{
-	color: #000;
-}
-
-#logo {
-	color: #100000;
-}
-
 hr {
-	border-color: #607560;
+    /* Fallback BG color */
+    background-color: #30771d;
+    
+    /* Yi yi yi, complex x4! Makes a nice green gradient.*/
+    background-image: -webkit-linear-gradient(
+                        top, #348821 0%, #30771d 46%, #30771d 46%, #176600 54%, 
+                        #176600 54%, #115300 100%);
+    background-image: -moz-linear-gradient(
+                        top, #348821 0%, #30771d 46%, #30771d 46%, #176600 54%, 
+                        #176600 54%, #115300 100%);
+    background-image: -o-linear-gradient(
+                        top, #348821 0%, #30771d 46%, #30771d 46%, #176600 54%, 
+                        #176600 54%, #115300 100%);
+    background-image: linear-gradient(
+                        top, #348821 0%, #30771d 46%, #30771d 46%, #176600 54%, 
+                        #176600 54%, #115300 100%);
+    
+    border: 1px solid #119500;
+    box-shadow: inset 0px 0px 0px 1px rgba(155, 255, 100, 0.4), 
+                0 1px 3px #333;
 }
 
-a:link	{
-	color: #1670A5;
-}
-
-a:visited	{
-	color: #A51FA5;
-}
-
-a:hover	{
-	color: #D31141;
-}
-
-a:active {
-	color: #A57016;
+iframe {
+    border: 1px solid #348821;
 }

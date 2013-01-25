@@ -1,0 +1,26 @@
+hr {
+    /* Fallback BG */
+    background-color: #a1351f;
+    
+    /* Yi yi yi, complex x4! Makes a red-orange gradient.*/
+    background-image: webkit-linear-gradient(
+                        top, #cb4c25 0%, #a1351f 46%, #a1351f 46%, #943017 54%, 
+                        #943017 54%, #7b2512 100%);
+    background-image: -moz-linear-gradient(
+                        top, #cb4c25 0%, #a1351f 46%, #a1351f 46%, #943017 54%, 
+                        #943017 54%, #7b2512 100%);
+    background-image: -o-linear-gradient(
+                        top, #cb4c25 0%, #a1351f 46%, #a1351f 46%, #943017 54%, 
+                        #943017 54%, #7b2512 100%);
+    background-image: linear-gradient(
+                        top, #cb4c25 0%, #a1351f 46%, #a1351f 46%, #943017 54%, 
+                        #943017 54%, #7b2512 100%);
+    
+    border: 1px solid #7B2512;
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 155, 100, 0.4), 
+                0 1px 3px #333;
+}
+
+iframe {
+    border: 1px solid #7B2512;
+}

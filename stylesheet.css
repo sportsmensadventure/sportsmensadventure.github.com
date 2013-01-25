@@ -1,12 +1,12 @@
-html, body, h1, h2, h3, li {
+html, body, h1, h2, h3, li, nav, header, ul, hr, footer, aside, iframe {
     padding: 0;
     margin: 0;
     font-size: 100%;
     font-weight: normal;
 }
 
-img {
-    border: 0;
+ul {
+    list-style: disc;
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*\
@@ -15,49 +15,52 @@ img {
 |                                      |
 \*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
+html {
+    background-color: #604540;
+}
+
 body {
-    height: 100%;
-    font-size: 12px;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    background-color: #90B090;
+    font-size: 14px;
+    font-family: Ubuntu, Verdana, Helvetica, Arial, sans-serif;
     color: #101010;
-    margin-bottom: 5px;
+    
+    background-color: #A9885D;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .8);
+    
+    margin: 8px;
+}
+
+header {
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: normal;
+    font: 570% "Imprint MT Shadow", "Copperplate Gothic Light", Algerian, "URW Bookman L", serif;
+    color: #604540;
+    text-shadow: 2px 2px rgba(10, 10, 10, 0.7);
+    
     padding: 0.2em 0 0.2em 0;
-    color: #000;
-}
-
-h2, h3 {
-    font-family: Imperator, Castellar, "Imprint MT Shadow", "Cooper Black", sans-serif;
-    font-weight: normal;
-    font-size: 2.6em;
-    padding: 0.1em 0 0.1em 0;
-    color: #28313F;
-}
-
-h3 {
-    font-size: 1.7em;
-}
-
-p {
-    line-height: 1.3em;
-    font-size: 1.1em;
-    padding-bottom: .8em;
-    padding-right: 3em;
-    padding-left: 3em;
 }
 
 hr {
-    border-width: 1px;
-    border-style: solid;
-    /*margin-left: -10px;*/
-    padding-left: 0px;
-    background-color: #607560;
-    border-color: #607560;
+    border-radius: 5px;
+    
+    padding: 8px;
+    margin: 5px 10px 9px 10px;
+}
+
+h2 {
+    color: #28313f;
+    font: 240% Imperator, Castellar, "Imprint MT Shadow", "Cooper Black", sans-serif;
+    
+    padding: 8px -2px 0 0;
+    margin-left: 5%;
+}
+
+p {
+    line-height: 130%;
 }
 
 ul {
@@ -68,62 +71,72 @@ li {
     margin-left: 25px;
 }
 
-#content {
-    margin-left: 420px;
-    margin-right: 20px;
-    padding-bottom: 5px;
-}
-
-#sidebarred {
-    margin-top: -23px;
-    margin-bottom: -6px;
-    background-image: url("tilebg.png");
-    background-repeat: repeat-y;
-    background-position: left top;
-}
-
-#trapshoot_animation {
-    margin-top: -30px;
-    margin-bottom: -10px;
-}
-
-#logo {
-    font-size: 6em;
-    font-family: "Imprint MT Shadow", "Copperplate Gothic Light", Algerian, "URW Bookman L", serif;
-    color: #604540;
-}
-
-#map {
-    float: left;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-}
-
-#cred {
-    font-size: .95em;
-}
-
-#bottom {
+aside {
+    background-color: #604540;
     
-    padding-bottom: 9px;
+    text-align: center;
+    
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .8);
+    border-radius: 4px;
+    
+    padding: 4px 4px 4px 4px;
+    margin: 20px 20px 10px 10px;
+    width: 420px;
+    float: right;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-a:link  {
-    color: #13568D;
+iframe {
+    border-radius: 5px;
+    margin-bottom: 2px;
 }
 
-a:visited   {
-    color: #105289;
+
+a {
+    color: #fefefe;
+    text-decoration: none;
+    
+    padding: 1px 3px;
+    display: inline-block;
+    
+    border: 1px solid #fefefe;
+    border-left-width: 5px;
 }
 
 a:hover {
-    color: #D31141;
+    color: #ddd;
+    border-color: #ddd;  
 }
 
-a:active {
-    color: #368AD2;
+footer {
+    text-align: center;
+    font-size: 80%;
+    
+    margin-top: 6px;
+    padding: 5px 0;
 }
 
+.title, .grouper {
+    font: 1.7em Imperator, Castellar, "Imprint MT Shadow", "Cooper Black", sans-serif;
+    list-style-type: none;
+    margin-left: 2%;
+    margin-top: 7px;
+}
 
+.subtitle {
+    font-style: italic;
+    font-size: 115%;
+}
 
+.grouper {
+    font-size: 140%;
+}
+
+.main {
+    margin-left: 5%;
+}
+
+.extra-blurb {
+    margin: 12px 0 16px 0;
+}
