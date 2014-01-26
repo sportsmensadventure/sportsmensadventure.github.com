@@ -87,6 +87,15 @@ aside {
     box-sizing: border-box;
 }
 
+aside a {
+    color: #fff;
+    border: none;
+}
+
+aside a:hover {
+    color: #00c000;
+}
+
 iframe {
     border-radius: 5px;
     margin-bottom: 2px;
@@ -94,19 +103,22 @@ iframe {
 
 
 a {
-    color: #fefefe;
+    /*color: #291603;
+    color: #f0f0f0;*/
+    color: #000;
     text-decoration: none;
+    /*font-weight: bold;*/
     
-    padding: 1px 3px;
-    display: inline-block;
+    /*padding: 1px 3px;
+    display: inline-block;*/
     
-    border: 1px solid #fefefe;
-    border-left-width: 5px;
+    border-bottom: 1px dotted #000;
+    /*border-left-width: 5px;*/
 }
 
 a:hover {
-    color: #ddd;
-    border-color: #ddd;  
+    color: #005000;
+    border-color: #005000;
 }
 
 footer {
@@ -139,4 +151,13 @@ footer {
 
 .extra-blurb {
     margin: 12px 0 16px 0;
+}
+
+.by-line, .by-line:before {
+    font-style: italic;
+    /* font-size: 110%; */
+}
+
+.by-line:before {
+    content: "-- ";
 }
