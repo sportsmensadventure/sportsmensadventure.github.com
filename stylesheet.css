@@ -103,17 +103,9 @@ iframe {
 
 
 a {
-    /*color: #291603;
-    color: #f0f0f0;*/
     color: #000;
     text-decoration: none;
-    /*font-weight: bold;*/
-    
-    /*padding: 1px 3px;
-    display: inline-block;*/
-    
     border-bottom: 1px dotted #000;
-    /*border-left-width: 5px;*/
 }
 
 a:hover {
@@ -155,7 +147,6 @@ footer {
 
 .by-line, .by-line:before {
     font-style: italic;
-    /* font-size: 110%; */
 }
 
 .by-line:before {
